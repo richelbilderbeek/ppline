@@ -1,5 +1,5 @@
 script:
-  - echo "Nothing"
+  - wget https://sourceforge.net/projects/ppline/files/PPLine.0.9.8.4.with.preinstalled.soft.tar.gz/download
 
 after_success:
   # Download thesis
