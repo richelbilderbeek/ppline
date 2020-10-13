@@ -1,6 +1,8 @@
 script:
   - python -m pip install --upgrade pip
   - sudo pip install biopython
+  - python3 -m pip install --upgrade pip
+  - sudo pip3 install biopython
   - ./get_source.sh
 
 after_success:
