@@ -1,4 +1,5 @@
 script:
+  - sudo pip install biopython
   - ./get_source.sh
 
 after_success:
